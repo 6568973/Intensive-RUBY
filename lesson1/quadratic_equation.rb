@@ -1,7 +1,6 @@
 def quadratic_equation(a, b, c)
   d = b**2 - 4 * a * c
   
-
   if d > 0
     d_root = Math.sqrt(d)
     puts "D = #{d}"
@@ -15,3 +14,6 @@ def quadratic_equation(a, b, c)
     puts 'No roots!'
   end
 end
+
+
+
